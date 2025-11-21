@@ -77,7 +77,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://TheColdgerm.github.io/2025/11/22/first/"/>
+    <link rel="canonical" href="https://TheColdgerm.github.io/2025/11/22/linux基础/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -87,14 +87,14 @@
         
         <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="first">
-<meta property="og:url" content="https://thecoldgerm.github.io/2025/11/22/first/index.html">
+<meta property="og:title" content="Linux基础">
+<meta property="og:url" content="https://thecoldgerm.github.io/2025/11/22/Linux%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="Wander &amp; Seek">
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://thecoldgerm.github.io/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-11-21T16:24:53.000Z">
-<meta property="article:modified_time" content="2025-11-21T16:35:19.922Z">
+<meta property="article:published_time" content="2025-11-21T17:24:53.000Z">
+<meta property="article:modified_time" content="2025-11-21T17:33:00.930Z">
 <meta property="article:author" content="TheColdgerm">
 <meta property="article:tag" content="Coldgerm,wander,seek">
 <meta name="twitter:card" content="summary">
@@ -110,7 +110,7 @@
     
     <title>
         
-            first | Theme Redefine
+            Linux基础 | Theme Redefine
         
     </title>
 
@@ -276,7 +276,7 @@
         <div class="label text-third-text-color text-sm">分类</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">3</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">4</div>
         <div class="label text-third-text-color text-sm">文章</div>
     </a>
 </div>
@@ -299,7 +299,7 @@
 		<div class="article-title relative w-full">
 			
 			<div class="w-full flex items-center pt-6 justify-start">
-				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">first</h1>
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">Linux基础</h1>
 			</div>
 			
 		</div>
@@ -320,15 +320,15 @@
 					<div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2025-11-22 00:24:53</span>
-        <span class="mobile">2025-11-22 00:24:53</span>
+        <span class="desktop">2025-11-22 01:24:53</span>
+        <span class="mobile">2025-11-22 01:24:53</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2025-11-22 00:35:19</span>
-            <span class="mobile">2025-11-22 00:35:19</span>
+            <span class="desktop">2025-11-22 01:33</span>
+            <span class="mobile">2025-11-22 01:33</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -355,7 +355,48 @@
 
 
 		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-			<p>1111111111111111111111111111111111111111111111111111111111111111111</p>
+			<h1 id="文件目录"><a href="#文件目录" class="headerlink" title="文件目录"></a>文件目录</h1><p>![[File-Linux文件目录-2520251109.png]]</p>
+<h1 id="命令基础"><a href="#命令基础" class="headerlink" title="命令基础"></a>命令基础</h1><p>学习Linux，本质上是学习在命令行下熟练使用Linux的各类命令。</p>
+<h2 id="命令行："><a href="#命令行：" class="headerlink" title="命令行："></a>命令行：</h2><p>即Linux终端（Terminal），是一种命令提示符页面。以纯“字符”的形式操作系统，可以使用各种字符化命<br>令对系统发出操作指令。</p>
+<h2 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h2><p>即Linux程序。一个命令就是一个Linux的程序。命令没有图形化页面，可以在命令行（终端中）提供字符化的反馈。</p>
+<h1 id="路径表示"><a href="#路径表示" class="headerlink" title="路径表示"></a>路径表示</h1><h2 id="相对路径和绝对路径"><a href="#相对路径和绝对路径" class="headerlink" title="相对路径和绝对路径"></a>相对路径和绝对路径</h2><p>![[File-Linux基础-2520251109.png]]</p>
+<h2 id="特殊路径符"><a href="#特殊路径符" class="headerlink" title="特殊路径符"></a>特殊路径符</h2><ul>
+<li><code>.</code>表示<strong>当前目录</strong>，比如<code>cd./Desktop</code>表示切换到当前目录下的<code>Desktop</code>目录内，和<code>cd Desktop</code>效果一致</li>
+<li><code>..</code>表示<strong>上一级自录</strong>，比如：<code>cd.</code>即可切换到上一级自录，&#96;cd..&#x2F;..切换到上二级的自录　</li>
+<li><code>~</code>表示<strong>HOME目录</strong>，比如：<code>cd ~</code>即可切换到HOME目录或<code>cd ~/Desktop</code>，切换到HOME内的<code>Desktop</code>目录</li>
+</ul>
+<h1 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h1><p>rm命令支持用通配符来做模糊匹配</p>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><p><code>*</code>表示通配符,即匹配任意内容(包含空)</p>
+<ul>
+<li><code>test*</code>表示匹配任意以test开头的字符</li>
+<li><code>*test</code>表示匹配任意以test结尾的字符</li>
+<li><code>*test*</code>表示匹配任意含test的字符</li>
+</ul>
+<h1 id="root用户"><a href="#root用户" class="headerlink" title="root用户"></a>root用户</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>root用户是在Linux系统中的超级管理员用户，拥有最大的系统操作权限<br>而普通用户的权限，一般在其HOME自录内是不受限的，一旦出了HOME自录，大多数地方，普通用户仅有只读和执行权限，无修改权限</p>
+<h2 id="有关命令"><a href="#有关命令" class="headerlink" title="有关命令"></a>有关命令</h2><ol>
+<li>可以通过su - root,并输入密码123456临时切换到root用户体验[[Linux命令#su命令]]，通过exit命令退回普通用户</li>
+<li>在其它命令之前，带上sudo，即可为这一条命令临时赋予root授权<em>但是并不是所有的用户，都有权利使用sudo，我们需要为普通用户配置sudo认证</em></li>
+</ol>
+<h2 id="sudo认证"><a href="#sudo认证" class="headerlink" title="sudo认证"></a>sudo认证</h2><p>![[File-Linux命令-2520251114.png]]</p>
+<h1 id="反引号符"><a href="#反引号符" class="headerlink" title="反引号符"></a>反引号符</h1><h2 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h2><p>``表示反引号符，被`包围的内容会作为命令执行，而非字符串<br>（如在echo命令中[[Linux命令#echo命令]]）</p>
+<h1 id="重定向符"><a href="#重定向符" class="headerlink" title="重定向符"></a>重定向符</h1><h2 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h2><p><code>&gt;</code>将左侧命令的结果，<strong>覆盖</strong>写入到符号右侧指定的文件中<br><code>&gt;&gt;</code>将左侧命令的结果，<strong>追加</strong>写入到符号右侧指定的文件中<br>可以搭配echo使用[[Linux命令#echo命令]]</p>
+<h1 id="vi-vim编辑器"><a href="#vi-vim编辑器" class="headerlink" title="vi&#x2F;vim编辑器"></a>vi&#x2F;vim编辑器</h1><h2 id="什么是vi-vim编辑器"><a href="#什么是vi-vim编辑器" class="headerlink" title="什么是vi&#x2F;vim编辑器"></a>什么是vi&#x2F;vim编辑器</h2><p>vi&#x2F;vim编辑器，就是命令行模式下的文本编辑器，用来编辑文件<br>而vim是vi的升级版，一般用vim即可，包含全部vi功能</p>
+<h2 id="基础命令"><a href="#基础命令" class="headerlink" title="基础命令"></a>基础命令</h2><h3 id="进入"><a href="#进入" class="headerlink" title="进入"></a>进入</h3><p><code>vi 文件路径</code><br><code>vim 文件路径</code></p>
+<h3 id="退出"><a href="#退出" class="headerlink" title="退出"></a>退出</h3><p><code>:wq</code>即底线命令模式下输入wq</p>
+<h2 id="运行模式及其快捷键"><a href="#运行模式及其快捷键" class="headerlink" title="运行模式及其快捷键"></a>运行模式及其快捷键</h2><ol>
+<li>命令模式，默认的模式，可以通过键盘快捷键控制文件内容 ![[File-Linux基础-2520251114-3.png]]</li>
+<li>输入模式，通过命令模式按i进入，可以输入内容进行编辑，按esc退回命令模式。![[File-Linux基础-2520251114-2.png]]</li>
+<li>底线命令模式，通过命令模式输入:进入，可以对文件进行保存、关闭等操作，以回车结束运行。![[File-Linux基础-2520251114-4.png]]<br>![[File-Linux基础-2520251114-1.png]]</li>
+</ol>
+<h1 id="用户、用户组"><a href="#用户、用户组" class="headerlink" title="用户、用户组"></a>用户、用户组</h1><h2 id="Linux用户管理模式"><a href="#Linux用户管理模式" class="headerlink" title="Linux用户管理模式"></a>Linux用户管理模式</h2><p>Linux可以支持多用户、多用户组、用户加入多个组<br>Linux权限管控的单元是用户级别和用户组级别</p>
+<h2 id="用户、用户组相关管理命令"><a href="#用户、用户组相关管理命令" class="headerlink" title="用户、用户组相关管理命令"></a>用户、用户组相关管理命令</h2><p><code>groupadd</code>添加组、<code>groupdel</code>删除组<br><code>useradd</code>添加用户、<code>userdel</code>删除用户<br><code>usermod</code>修改用户组、<code>id</code>命令查看用户信息<br><code>getent passwd</code>查看系统全部用户信息<br><code>getent group</code>查看系统全部组信息</p>
+<h1 id="权限信息"><a href="#权限信息" class="headerlink" title="权限信息"></a>权限信息</h1><h2 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h2><p>![[File-Linux基础-2520251114-5.png]]</p>
+<h2 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h2><p>![[File-Linux基础-2520251114-6.png]]<br><strong>r表示读权限 W表示写权限 x表示执行权限</strong><br>针对文件、文件夹的不同，rwx的含义有细微差别</p>
+<ul>
+<li>r，针对文件可以查看文件内容，针对文件夹，可以查看文件夹内容，如ls命令 </li>
+<li>w，针对文件表示可以修改此文件，针对文件夹，可以在文件夹内进行创建、删除、改名等操作</li>
+<li>x，针对文件表示可以将文件作为程序执行，针对文件夹，表示可以更改工作目录到此文件夹，即cd进入<br>![[Linux命令#数字序号]]</li>
+</ul>
 
 		</div>
 
@@ -363,18 +404,18 @@
 		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
 			<div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> first</li>
+        <li><strong>标题:</strong> Linux基础</li>
         <li><strong>作者:</strong> The Redefine Team</li>
         <li><strong>创建于
-                :</strong> 2025-11-22 00:24:53</li>
+                :</strong> 2025-11-22 01:24:53</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2025-11-22 00:35:19
+                    :</strong> 2025-11-22 01:33:00
             </li>
         
         <li>
-            <strong>链接:</strong> https://redefine.ohevan.com/2025/11/22/first/
+            <strong>链接:</strong> https://redefine.ohevan.com/2025/11/22/Linux基础/
         </li>
         <li>
             <strong>
@@ -398,6 +439,18 @@
 
 		
 		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/2025/11/22/%E6%B1%82%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0%E5%92%8C%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">求最大公约数和最小公倍数</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
 			
 			
 			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
@@ -465,8 +518,8 @@
 		<div class="post-toc-wrap">
 	<div class="post-toc">
 		<div class="toc-title">目录</div>
-		<div class="page-title">first</div>
-		
+		<div class="page-title">Linux基础</div>
+		<ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95"><span class="nav-text">文件目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4%E5%9F%BA%E7%A1%80"><span class="nav-text">命令基础</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A"><span class="nav-text">命令行：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="nav-text">命令：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B7%AF%E5%BE%84%E8%A1%A8%E7%A4%BA"><span class="nav-text">路径表示</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%92%8C%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="nav-text">相对路径和绝对路径</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E6%AE%8A%E8%B7%AF%E5%BE%84%E7%AC%A6"><span class="nav-text">特殊路径符</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%9A%E9%85%8D%E7%AC%A6"><span class="nav-text">通配符</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95"><span class="nav-text">语法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#root%E7%94%A8%E6%88%B7"><span class="nav-text">root用户</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E5%BF%B5"><span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%89%E5%85%B3%E5%91%BD%E4%BB%A4"><span class="nav-text">有关命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sudo%E8%AE%A4%E8%AF%81"><span class="nav-text">sudo认证</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%8D%E5%BC%95%E5%8F%B7%E7%AC%A6"><span class="nav-text">反引号符</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95-1"><span class="nav-text">语法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%87%8D%E5%AE%9A%E5%90%91%E7%AC%A6"><span class="nav-text">重定向符</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95-2"><span class="nav-text">语法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#vi-vim%E7%BC%96%E8%BE%91%E5%99%A8"><span class="nav-text">vi&#x2F;vim编辑器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFvi-vim%E7%BC%96%E8%BE%91%E5%99%A8"><span class="nav-text">什么是vi&#x2F;vim编辑器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4"><span class="nav-text">基础命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%9B%E5%85%A5"><span class="nav-text">进入</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%80%E5%87%BA"><span class="nav-text">退出</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%90%E8%A1%8C%E6%A8%A1%E5%BC%8F%E5%8F%8A%E5%85%B6%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-text">运行模式及其快捷键</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%A8%E6%88%B7%E3%80%81%E7%94%A8%E6%88%B7%E7%BB%84"><span class="nav-text">用户、用户组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E6%A8%A1%E5%BC%8F"><span class="nav-text">Linux用户管理模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%A8%E6%88%B7%E3%80%81%E7%94%A8%E6%88%B7%E7%BB%84%E7%9B%B8%E5%85%B3%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4"><span class="nav-text">用户、用户组相关管理命令</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9D%83%E9%99%90%E4%BF%A1%E6%81%AF"><span class="nav-text">权限信息</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B"><span class="nav-text">查看</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%86%E8%8A%82"><span class="nav-text">细节</span></a></li></ol></li></ol>
 
 	</div>
 </div>
@@ -493,7 +546,7 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        共撰写了 3 篇文章
+                        共撰写了 4 篇文章
                     </span>
                     
                 </p>
